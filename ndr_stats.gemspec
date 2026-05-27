@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   # Specify which files should be added to the gem when it is released.
   gem_files          = %w[CHANGELOG.md CODE_OF_CONDUCT.md LICENSE.txt README.md
-                          lib ndr_stats.gemspec]
+                          SECURITY.md lib ndr_stats.gemspec]
   spec.files         = `git ls-files -z`.split("\x0").
                        select { |f| gem_files.include?(f.split('/')[0]) }
 
